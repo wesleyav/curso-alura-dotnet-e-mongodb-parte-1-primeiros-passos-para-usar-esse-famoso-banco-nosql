@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace exemplosMongoDB
 {
-    class Program
+    class ProgramAssincrono
     {
         static void Main(string[] args)
         {
-            MainSync(args);
+            Task T = MainSync(args);
             Console.WriteLine("Pressione ENTER");
             Console.ReadLine();
         }
 
-        static void MainSync(string[] args)
+        static async Task MainSync(string[] args)
         {
             Console.WriteLine("Esperando 10 segundos ....");
-            System.Threading.Thread.Sleep(10000);
+            await Task.Delay(10000);
             Console.WriteLine("Esperei 10 segundos ....");
         }
     }

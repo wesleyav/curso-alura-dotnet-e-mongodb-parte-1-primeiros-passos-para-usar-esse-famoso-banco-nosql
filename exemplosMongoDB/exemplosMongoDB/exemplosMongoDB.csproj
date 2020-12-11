@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>exemplosMongoDB.ListandoDocumentosFiltroBson</StartupObject>
+    <StartupObject>exemplosMongoDB.ListandoDocumentosFiltroClasse</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -63,6 +63,7 @@
     <Compile Include="IncluindoMuitosLivros.cs" />
     <Compile Include="ListandoDocumentos.cs" />
     <Compile Include="ListandoDocumentosFiltroBson.cs" />
+    <Compile Include="ListandoDocumentosFiltroClasse.cs" />
     <Compile Include="Livro.cs" />
     <Compile Include="ManipulandoClasses.cs" />
     <Compile Include="ManipulandoClassesExternas.cs" />
